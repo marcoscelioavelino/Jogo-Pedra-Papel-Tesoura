@@ -80,35 +80,3 @@ function jogar() {
     } 
 
 }
-
-
-
-/*function jogar() {
-
-    if ( document.getElementById("pedra").checked == false && document.getElementById("papel").checked == false && document.getElementById("tesoura").checked == false ) {
-
-        alert("Escolha umua opção");
-       
-      
-    }else {
-
-    var pcEscolheu = Math.floor(Math.random() * 3);
-    //alert (pcEscolheu);
-
-    switch (pcEscolheu) {
-
-    case 0 :
-        document.getElementById("imgPc").src="img/pedra.png";
-        break;
-    case 1 :
-        document.getElementById("imgPc").src="img/papel.png";
-        break;  
-     case 2 :
-        document.getElementById("imgPc").src="img/tesoura.png";
-        break;
-}
-
-}
-
-}
-*/
