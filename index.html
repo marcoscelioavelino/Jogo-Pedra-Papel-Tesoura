@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo pedra/papel/tesoura </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="functions.js"></script>
+</head>
+
+<body>
+
+<header class="boxTitulo"> 
+    <p class="txtTitulo">JOGANDO </p>
+    <p class="txtTitulo">PEDRA-PAPEL-TESOURA</p>
+    <p class="txtSubTitulo">Faça a sua escolha e clique no botão jogar. </p>
+</header>
+
+<main class="menu"> 
+
+<section class="secBoxPlayer">
+<form class="boxForm" id="formEscolha">
+<div class="boxEscolha">   
+
+    <div class="boxImgs"> 
+         <img class="img" src="img/pedra.png"> 
+         <p class="txtSubTitulo">Pedra</p>
+         <input  class="radio" id="pedra" name="suaEscolha" type="radio" >
+    </div>
+
+    <div class="boxImgs">
+         <img class="img" src="img/papel.png"> 
+         <p class="txtSubTitulo">Papel</p>
+         <input  class="radio" id="papel" name="suaEscolha" type="radio">
+    </div>
+
+    <div class="boxImgs">
+         <img class="img" src="img/tesoura.png"> 
+         <p class="txtSubTitulo">Tesoura</p>
+         <input  class="radio" id="tesoura" name="suaEscolha" type="radio">
+    </div>
+
+</div>
+</form>
+</section>
+
+<section class="secBoxPadrao" >
+<div class="boxPcPlayer">
+     
+        <p class="txtTituloPadrao">O computador escolheu:</p>
+        <img class="img" id="imgPc" src="">
+
+</div>
+</section>
+
+<section class="secBoxPadrao">
+<div class="boxResultado">
+    
+        <p class="txtTituloPadrao">Resultado da rodada:</p>
+        <div class="txtSubTitulo" id="resultado">Veja aqui o resultado da rodada</div>
+
+</div>
+</section>
+
+<section class="secBoxPadrao">
+    
+    <div class="boxPlacarTitulo">
+         <div class="txtTituloPlacar">Placar de rodadas:</div>
+    </div>
+
+    <div class="boxPlacar">
+        
+        <div class="boxPlacarNumeros"> 
+            <div class="txtSubTitulo">Vitórias:</div>
+            <p id="vitorias">-</p>
+        </div> 
+
+         <div class="boxPlacarNumeros"> 
+            <div class="txtSubTitulo">Empates:</div>
+            <p id="empates">-</p>
+        </div>
+
+        <div class="boxPlacarNumeros"> 
+            <div class="txtSubTitulo">Derrotas:</div>
+            <p id="derrotas">-</p>
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+<footer class="footerBox">
+    <button class="botao" onclick="jogar();">Jogar</button>
+    <button class="botao" onclick="reset();">Resetar </button>
+</footer>
+
+</body>
+</html>

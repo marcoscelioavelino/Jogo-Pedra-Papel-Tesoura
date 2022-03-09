@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 0;
+    display: flex;
+    font-size: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(img/bgbody.jpg);
+}
+
+.menu {
+    margin-top: 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 15px;
+    background-color:#dbd824;
+    opacity: 90%;
+}
+
+.boxTitulo {
+    width: 300px;
+    display: flex;
+    margin-top: 7%;
+    align-items: center;
+    flex-direction: column;
+    background-color:#dbd824;
+    border-radius: 15px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    opacity: 90%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+}
+
+@font-face {
+    font-family: "gt";
+    src: url("Great Friend.ttf");
+}
+
+.txtTitulo {
+    font-family: "gt";
+    font-size: 32px;
+    text-align: center;
+}
+
+.txtSubTitulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 13px;
+}
+
+.txtTituloPadrao {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+.txtTituloPlacar {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.secBoxPlayer {
+    display: flex;
+    width: 300px;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.boxEscolha {
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    justify-content: space-between;
+}
+
+.radio {
+    margin-top: 10px;
+}
+
+.boxImgs {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding-right: 5px;
+   padding-left: 5px;
+   padding-top: 10px; 
+   padding-bottom: 12px;
+}
+
+.img {
+    width: 70px;
+}
+
+.secBoxPadrao {
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+}
+
+.boxPcPlayer {
+    padding-top: 10px;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+}
+
+.boxResultado {
+    padding-top: 10px;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxPlacar {
+    padding-top: 5px;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.boxPlacarTitulo {
+    padding-top: 10px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxPlacarNumeros {
+    padding-top: 3px;
+    margin-bottom: 3px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+.txtTituloPlacar {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+}
+
+.footerBox {
+    display: flex;
+    width: 300px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 15px;
+    background-color:#dbd824;
+    opacity: 90%;
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 12px;
+    justify-content: space-evenly;
+}
+
+.botao {
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    border: 0px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.botao:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(235, 231, 231);
+    transition: 0.5s;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 1px;
+    text-decoration: underline;
+}
